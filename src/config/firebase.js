@@ -4,13 +4,13 @@ import {getAuth, GoogleAuthProvider, signInWithPopup} from "firebase/auth";
 import "firebase/database"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC8IjwyrS4KzFmY3IydIAhr7ifri0fHEYY",
-  authDomain: "pomotodo-329d6.firebaseapp.com",
-  projectId: "pomotodo-329d6",
-  storageBucket: "pomotodo-329d6.appspot.com",
-  messagingSenderId: "1034607799434",
-  appId: "1:1034607799434:web:4a379afdb9fd726ce81173",
-  databaseURL: "https://pomotodo-329d6-default-rtdb.europe-west1.firebasedatabase.app/"
+  apiKey: "apiKey",
+  authDomain: "authDomain",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "messagingSenderId",
+  appId: "appId",
+  databaseURL: "databaseURL"
 }
 
 const app = firebase.initializeApp(firebaseConfig);
