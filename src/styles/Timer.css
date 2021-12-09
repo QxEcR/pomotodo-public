@@ -1,0 +1,87 @@
+.timerContainer {
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+  margin-bottom: 100px;
+}
+
+.timerCard {
+  width: 35vw;
+  height: 40vh;
+  background-color: #065a82;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputContainer {
+  border-radius: 2px;
+  width: 35vw;
+  height: 200;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  position: relative;
+  width: 200px;
+  transition: all 0.5s linear;
+  margin-right: 30px;
+}
+.input:focus {
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  color: white;
+}
+
+.input:focus::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+.input:focus + .underline {
+  transform: scale(1);
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.timerCounter, .timerCounterHeader {
+  background: transparent;
+  color: white;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+.timerCounter{
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.timerButton {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.timerButton:hover{
+    background-color: dodgerblue;
+}

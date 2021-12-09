@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #9eb3c2;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.headerName {
+  margin-top: 30px;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  font-size: 48px;
+  color: white;
+}
+
+.signOut {
+  position: absolute;
+  left: 90%;
+  top: 2%;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 0;
+  border: none;
+  background-color: #065a82;
+  color: white;
+  font-size: 20px;
+}
+
+.signInContainer {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.signIn {
+  width: 250px;
+  height: 60px;
+  border-radius: 15px;
+  padding: 0;
+  border: none;
+  background-color: #065a82;
+  color: white;
+  font-size: 20px;
+}
+
+.unresponsiveText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+}
+
+.footerText {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .unresponsiveText,
+  .footerText {
+    font-size: 18px;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}

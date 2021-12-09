@@ -1,0 +1,77 @@
+.todoContainer {
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+.todoCard {
+  width: 35vw;
+  height: auto;
+  background-color: #065a82;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.todoInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  position: relative;
+  width: 200px;
+  transition: all 0.5s linear;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.todoInput:focus {
+  outline: none;
+}
+
+.todoInput::-webkit-input-placeholder {
+  color: white;
+}
+
+.todoInput:focus::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+.todoInput:focus + .underline {
+  transform: scale(1);
+}
+
+.addButton {
+  width: 125px;
+  height: 35px;
+  border-radius: 15px;
+  padding: 0;
+  border: none;
+  margin-top: 10px;
+}
+
+.addButton:hover {
+  background-color: dodgerblue;
+}
+
+.todosContainer {
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+.todoElem {
+  background-color: #1c7293;
+  width: 25vw;
+  font-size: 32px;
+  color: white;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+}
